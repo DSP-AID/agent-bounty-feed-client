@@ -1,0 +1,14 @@
+{
+  "name": "agent-bounty-feed-client",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI client for the Agent Bounty Feed MCP server: find open paid bounties an AI agent can claim",
+  "type": "module",
+  "bin": { "abf": "client.mjs" },
+  "engines": { "node": ">=18.0.0" },
+  "scripts": {
+    "stats": "node client.mjs stats",
+    "list": "node client.mjs list"
+  },
+  "keywords": ["bounties", "mcp", "ai-agents", "usdc", "base", "cli"],
+  "license": "MIT"
+}
